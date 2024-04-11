@@ -101,7 +101,7 @@ end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("Rass Script Rewrite")
+local PhantomForcesWindow = Library:NewWindow("Rass Script")
 
 local WeLoveCat = PhantomForcesWindow:NewSection("Script")
 
@@ -235,9 +235,9 @@ end)
 
 --[[ 4th Section Credit ]]--
 
-local WeLoveCat= PhantomForcesWindow:NewSection("Discord")
+local WeLoveCat= PhantomForcesWindow:NewSection("Whatsapp Channel")
 
-WeLoveCat:CreateButton("Whataso Channels", function()
+WeLoveCat:CreateButton("Channels", function()
 setclipboard("https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q")
 end)
 
